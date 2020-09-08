@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core'
 import { AppComponent } from './app.component'
 import { RouterModule, Routes } from '@angular/router'
 import { LayoutComponent } from '@beeman/ui'
+import { ScullyLibModule } from '@scullyio/ng-lib'
 
 const routes: Routes = [
   {
@@ -17,7 +18,7 @@ const routes: Routes = [
 ]
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, RouterModule.forRoot(routes, { initialNavigation: 'enabled' })],
+  imports: [BrowserModule, RouterModule.forRoot(routes, { initialNavigation: 'enabled' }), ScullyLibModule],
   providers: [],
   bootstrap: [AppComponent],
 })
