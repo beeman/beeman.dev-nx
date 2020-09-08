@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@beeman/ui": ["libs/ui/src/index.ts"]
+      "@beeman/ui": ["libs/ui/src/index.ts"],
+      "@beeman/pages": ["libs/pages/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

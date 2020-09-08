@@ -11,6 +11,7 @@ const routes: Routes = [
     component: LayoutComponent,
     children: [
       // Pages go here!
+      { path: '', loadChildren: () => import('@beeman/pages').then((m) => m.PagesModule) },
     ],
   },
 ]
