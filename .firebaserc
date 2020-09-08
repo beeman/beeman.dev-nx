@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "beeman-dev": {
+      "hosting": {
+        "web": [
+          "beeman-dev"
+        ]
+      }
+    }
+  }
+}

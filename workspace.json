@@ -88,6 +88,10 @@
             "passWithNoTests": true,
             "setupFile": "apps/web/src/test-setup.ts"
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     },
